@@ -210,7 +210,11 @@ header .logo {
   border-bottom: 1px solid black;
   padding-bottom: 3%;
 }
-
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
 .services-header-img {
   margin: 2% auto;
 }
@@ -317,7 +321,7 @@ ul li {
   background: white;
   vertical-align: top;
   margin-top: 6px;
-  padding: 8px 44px;
+  padding: 8px 30px;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
@@ -471,8 +475,7 @@ footer {
     align-items: center;
   }
   .cta .cta-text button {
-    padding: 6px 44px;
-    width: 61%;
+    padding: 8px 40px;
   }
   section.main-content {
     border-top: 2px solid black;
@@ -558,10 +561,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .cta .cta-text button {
-    padding: 6px 44px;
-    width: 61%;
   }
   .main-content {
     border-top: 2px solid black;
